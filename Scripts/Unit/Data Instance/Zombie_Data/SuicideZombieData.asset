@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff98a09936e41d449aaaf3c4859e9bd, type: 3}
+  m_Name: SuicideZombieData
+  m_EditorClassIdentifier: Assembly-CSharp::SuicideZombieData
+  UnitName: Suicide
+  TrainTime: 5
+  Icon: {fileID: 21300000, guid: c9a5186657f87784588af3685093e7b2, type: 3}
+  UnitTag: 0
+  Cost: []
+  CanHide: 0
+  InteractRange: 2
+  DetectionRange: 100
+  CanAtk: 0
+  AutoAttackEffect:
+    EffectName: 
+    CastMethod: 0
+    HealthChange: 0
+    AtkBonus:
+      TargetTag: 0
+      Type: 0
+      Value: 0
+      Temporary: 0
+      Duration: 0
+    DefBonus:
+      TargetTag: 0
+      Type: 0
+      Value: 0
+      Temporary: 0
+      Duration: 0
+    MoveBonus:
+      TargetTag: 0
+      Type: 0
+      Value: 0
+      Temporary: 0
+      Duration: 0
+    ProjectilePrefab: {fileID: 0}
+    Homing: 0
+    ProjectileSpeed: 0
+    AOERadius: 0
+    Instigator: {fileID: 0}
+  AtkDamage: 0
+  AtkRange: 1
+  AtkSpeed: 0
+  AtkDamageBonuses: []
+  MaxHP: 200
+  Def: 0
+  DefaultAbilities: []
+  CanMove: 1
+  MoveSpeed: 7
+  VisionRange: 0
+  WanderRadius: 10
+  WanderIdleTime: 2
+  LeashRange: 20
+  AlwaysAggressive: 1
+  CanInfectOnDeath: 0
+  InfectionChance: 0.25
+  InfectedUnitPrefab: {fileID: 0}
+  TriggerRange: 6
+  ExplosionDamage: 1000
+  ExplosionRadius: 5
+  FuseTime: 0.5
+  ExplosionVFXPrefab: {fileID: 5099431166652583641, guid: 8c51410e4f579f34f84ac8580fc8ece9, type: 3}
+  DamageOnlyBuildings: 0
+  DamageTargetTag: 515
+  FuseSound: {fileID: 0}
+  ExplosionSound: {fileID: 8300000, guid: a107aee69e08ce84abb0596055dfdc1e, type: 3}
+  SoundVolume: 1
+  ExplosionLayerMask:
+    serializedVersion: 2
+    m_Bits: 499

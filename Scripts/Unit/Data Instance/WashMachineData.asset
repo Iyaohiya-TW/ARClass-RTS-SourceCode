@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc60ea085dad5d46aef4f22b5690b55, type: 3}
+  m_Name: WashMachineData
+  m_EditorClassIdentifier: Assembly-CSharp::WashMachineData
+  UnitName: Wash Machine
+  TrainTime: 5
+  Icon: {fileID: 21300000, guid: 430da76d1089e5840b04ba532afcdedc, type: 3}
+  UnitTag: 1
+  Cost: []
+  CanHide: 0
+  InteractRange: 0
+  DetectionRange: 10
+  CanAtk: 1
+  AutoAttackEffect:
+    EffectName: 
+    CastMethod: 0
+    HealthChange: 0
+    AtkBonus:
+      TargetTag: 0
+      Type: 0
+      Value: 0
+      Temporary: 0
+      Duration: 0
+    DefBonus:
+      TargetTag: 0
+      Type: 0
+      Value: 0
+      Temporary: 0
+      Duration: 0
+    MoveBonus:
+      TargetTag: 0
+      Type: 0
+      Value: 0
+      Temporary: 0
+      Duration: 0
+    ProjectilePrefab: {fileID: 0}
+    Homing: 0
+    ProjectileSpeed: 0
+    AOERadius: 0
+    Instigator: {fileID: 0}
+  AtkDamage: 1
+  AtkRange: 2
+  AtkSpeed: 2
+  AtkDamageBonuses: []
+  MaxHP: 10
+  Def: 1000
+  DefaultAbilities: []
+  CanMove: 1
+  MoveSpeed: 10
+  VisionRange: 0
+  SkillCooldown: 10
+  PullDuration: 1.5
+  PullSpeed: 8
+  RangeVisualizationPrefab: {fileID: 7268246082022171959, guid: ef21e018396171c4faca0921d150318c, type: 3}

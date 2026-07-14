@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a95c8e69d682a340ad44a976067307e, type: 3}
+  m_Name: ChairLv2Data
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  UnitName: Chair Lv2
+  TrainTime: 3
+  Icon: {fileID: 21300000, guid: b4e5cad315c02534f8ac67aa25ece4d3, type: 3}
+  UnitTag: 41
+  Cost:
+  - Type: 0
+    Amount: 100
+  CanHide: 0
+  InteractRange: 0
+  DetectionRange: 15
+  CanAtk: 1
+  AutoAttackEffect:
+    EffectName: Chair Basic Attack
+    CastMethod: 0
+    HealthChange: 0
+    AtkBonus:
+      TargetTag: 0
+      Type: 0
+      Value: -3
+      Temporary: 1
+      Duration: 3
+    DefBonus:
+      TargetTag: 0
+      Type: 0
+      Value: 0
+      Temporary: 0
+      Duration: 0
+    MoveBonus:
+      TargetTag: 0
+      Type: 0
+      Value: 0
+      Temporary: 0
+      Duration: 0
+    ProjectilePrefab: {fileID: 6683212482464077694, guid: 289f516534fbe604192e648b51bbfcde, type: 3}
+    Homing: 1
+    ProjectileSpeed: 10
+    AOERadius: 0
+    Instigator: {fileID: 0}
+  AtkDamage: 60
+  AtkRange: 4
+  AtkSpeed: 1.6
+  AtkDamageBonuses:
+  - TargetTag: 73
+    Type: 0
+    Value: 40
+    Temporary: 0
+    Duration: 0
+  - TargetTag: 0
+    Type: 0
+    Value: 20
+    Temporary: 0
+    Duration: 0
+  MaxHP: 200
+  Def: 6
+  DefaultAbilities: []
+  CanMove: 1
+  MoveSpeed: 12
+  VisionRange: 0

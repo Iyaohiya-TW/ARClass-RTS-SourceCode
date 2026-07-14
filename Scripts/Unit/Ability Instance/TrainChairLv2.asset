@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4498d94a1dfda4c43ad06ce57ee91b62, type: 3}
+  m_Name: TrainChairLv2
+  m_EditorClassIdentifier: Assembly-CSharp::Ability_TrainUnit
+  AbilityName: Train a ChairLv2
+  Icon: {fileID: 21300000, guid: b4e5cad315c02534f8ac67aa25ece4d3, type: 3}
+  autoActivateOnSpawn: 0
+  UnitPrefab: {fileID: 6077934692062272443, guid: 0e4c2c7236cca974eb0d643029a19c37, type: 3}

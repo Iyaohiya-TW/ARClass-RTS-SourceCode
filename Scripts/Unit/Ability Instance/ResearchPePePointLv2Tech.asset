@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fe277cb92fd5224bae852d878c07291, type: 3}
+  m_Name: ResearchPePePointLv2Tech
+  m_EditorClassIdentifier: Assembly-CSharp::Ability_ResearchTech
+  AbilityName: Research PePePoint lv2
+  Icon: {fileID: 21300000, guid: ad9efd2151e20af4a9e592cc51176804, type: 3}
+  ResearchTarget: {fileID: 11400000, guid: 8787b64adbb8c28469158a320b155303, type: 2}
+  NextLevel: {fileID: 11400000, guid: 2e61facab2e122f458ff3e4e065081a3, type: 2}
+  EmptyAbility: {fileID: 11400000, guid: 46be677d3035eb3489c25dfac9cf0859, type: 2}

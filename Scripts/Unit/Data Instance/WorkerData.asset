@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54530504af2e7d047aa827250569c34c, type: 3}
+  m_Name: WorkerData
+  m_EditorClassIdentifier: Assembly-CSharp::WorkerData
+  UnitName: Test Worker
+  TrainTime: 1
+  Icon: {fileID: 21300000, guid: 4a8a9be085f778645afbf313dbe37e3f, type: 3}
+  UnitTag: 17
+  Cost:
+  - Type: 3
+    Amount: 50
+  CanHide: 1
+  InteractRange: 1.2
+  DetectionRange: 3
+  CanAtk: 1
+  AutoAttackEffect:
+    EffectName: WorkerUnit's AutoAttack
+    HealthChange: 0
+    AddAtkBonus:
+      TargetTag: 16
+      Type: 0
+      Value: -10
+      Temporary: 1
+      Duration: 5
+    AddDefBonus:
+      TargetTag: 0
+      Type: 0
+      Value: 0
+      Temporary: 0
+      Duration: 0
+    AddMoveBonus:
+      TargetTag: 0
+      Type: 0
+      Value: 0
+      Temporary: 0
+      Duration: 0
+    ProjectilePrefab: {fileID: 8583714010984102057, guid: b773f86d5daeb824587d8cd945e596c6, type: 3}
+    Homing: 1
+    ProjectileSpeed: 10
+  AtkDamage: 10
+  AtkRange: 10
+  AtkSpeed: 1
+  AtkDamageBonuses:
+  - TargetTag: 16
+    Type: 0
+    Value: 1
+    Temporary: 0
+    Duration: 0
+  MaxHP: 40
+  Def: 0
+  DefaultAbilities:
+  - {fileID: 11400000, guid: 6484ceff428e90f49a9eb7487bb111e6, type: 2}
+  - {fileID: 11400000, guid: 2cd605ae31199d4478e646cc0ed1fb26, type: 2}
+  CanMove: 1
+  MoveSpeed: 5
+  VisionRange: 3
+  MaxInventory: 10
+  GatherAmn: 5
+  GatherSpeed: 1
+  RepairAmn: 10
+  RepairSpeed: 1
+  BuildAmn: 1
+  BuildSpeed: 1
